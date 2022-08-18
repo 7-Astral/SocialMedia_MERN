@@ -1,0 +1,90 @@
+.register{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/assets/s.jpeg");
+}
+.registerWrapper{
+    height:65%;
+    width:65%;
+    display: flex;
+   
+}
+.registerLeft,.registerRight{
+   flex:1;
+   align-items: center;
+   justify-content:center;
+   flex-direction: column;
+   display: flex;
+}
+
+.registerLogo{
+    font-size: 70px;
+    color: #4e5eed;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.registerDesc{
+    font-size: 25px;
+    color: #096891;
+}
+.registerBox{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width:350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #000;
+    
+}
+.registerInput{
+    border: 1px solid gray;
+    border-radius:10px;
+    height:40px;
+    font-size: 18px;
+    padding-left: 12px;
+}
+.registerInput:focus{
+    outline: none;
+}
+.registerButton{
+    height: 50px;
+    border: none;
+    background-color:#FF5F00;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.registerForget{
+    text-align: center;
+    color: #096891;
+    cursor: pointer;
+}
+.lg{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loginwithRegister{
+    width:38%;
+    height:25px;
+    border: none;
+    background-color: #2f6fdf;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-right: 10px;
+}

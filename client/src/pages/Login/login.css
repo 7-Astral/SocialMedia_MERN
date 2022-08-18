@@ -1,0 +1,133 @@
+.login{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../../public/assets/s.jpeg");
+    
+}
+.loginWrapper{
+    height:65%;
+    width:65%;
+    display: flex;
+   
+}
+.loginLeft,.loginRight{
+   flex:1;
+   align-items: center;
+   justify-content:center;
+   flex-direction: column;
+   display: flex;
+}
+.loginButton:disabled{
+   cursor:not-allowed;
+}
+.loginLogo{
+   
+    padding: 5px 5px;
+    font-size: 70px;
+    color: #c72ddf;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.loginDesc{
+    font-size: 25px;
+    color: #4fc3dc;;
+}
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    height:300px;
+    width:350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #000;
+    box-shadow:0 0 0 10px #4fc3dc44,
+    0 0 5px #1bdb51,
+    0 0 10px #1bdb51;
+}
+.loginInput{
+    border: 1px solid gray;
+    border-radius:10px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 12px;
+}
+.loginInput:focus{
+    outline: none;
+}
+.loginButton{
+    height: 50px;
+    border: none;
+    background-color:#FF5F00;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+}
+.loginForget{
+    text-align: center;
+    color: #096891;
+    cursor: pointer;
+}
+.lg{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.loginwithRegister{
+    width:25%;
+    height:25px;
+    border: none;
+    background-color: #2f6fdf;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.container{
+    position:relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    }
+    .bubbles{
+    position:relative;
+    display:flex;
+    }
+    .ani{
+    position:relative;
+    width:30px;
+    height:30px;
+    background:#4fc3dc;
+    margin: 0 4px;
+    border-radius:50%;
+    box-shadow:0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation:animate 15s linear infinite;
+    }
+    .ani:nth-child(even)
+    {
+    background:#ff2d75;
+    box-shadow:0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+    }
+    @keyframes animate{
+    0%{
+    transform:translateY(100vh) scale(0);
+    }
+    100%{
+    transform:translateY(-10vh) scale(0);
+    }
+    }

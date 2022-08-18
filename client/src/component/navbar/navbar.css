@@ -1,0 +1,216 @@
+.NavbarWrapper{
+    background-color: #646FD4;
+    width:100%;
+    height:50px;
+    top:0;
+    display:flex;
+    position:sticky;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+    font-size: 30px;
+    margin-left:25px;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+}
+.NavbarLeft{
+    flex:3;
+}
+.NavbarCenter{
+    flex:5;
+}
+.Searchbar{
+    display:flex;
+    align-items:center;
+    background-color: white;
+    border-radius:20px;
+    height:32px;
+    width:100%;
+    justify-content: flex-end;
+}
+.vc{
+    position: absolute;
+   width:240px;
+    display: flex;
+    flex-direction: column;
+   top:38px;
+    background-color:#A5AFC4;
+    justify-content: center;
+    right:4px;
+    border-radius: 3px;
+    
+}
+.nButton{
+    border: none;
+    cursor: pointer;
+    background-color:#A5AFC4;
+    backdrop-filter: blur(10px);
+    color:rgb(24, 60, 242);
+    align-self: flex-end;
+}
+
+  
+  .dataResult{
+    position: absolute;
+    width:615px;
+    right:12px;
+    top:15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 254, 255);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow-y:scroll;  
+    height:150px;
+    scrollbar-color: #646FD4;
+}
+.resultWrapper{
+    position:relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.dataResult::-webkit-scrollbar {
+    scrollbar-color: #646FD4;
+  }
+.searchResult{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.lk{
+    display: flex;
+    align-items: center;
+}
+  .searchImage{
+    width: 40px;
+    height:40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+  
+.logoutIc{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.notifications{
+    position:relative;
+}
+
+.notification{ 
+   font-size:16px;
+   font-weight: 400;
+   margin-left: 3px;
+   margin-bottom: 3px;
+}
+
+.searchInput{
+    border:none;
+    width:92%;
+    background-color: transparent;
+
+}
+.searchInput:focus{
+    outline: none;
+}
+.searchIcon{
+    margin-right:10px;
+    font-size:20px !important;
+}
+.NavbarRight{
+    flex:4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+.NavbarLink{
+    margin-right: 10px;
+    font-size:15px;
+    cursor:pointer;
+}
+.NavbarIcons{
+    display:flex;
+    align-items: center;
+}
+.NavbarIconItem{
+    margin-right: 10px;;
+    display:flex;
+    position:relative;
+}
+.NavbarIconBadge{
+    position:absolute;
+    height:15px;
+    width:15px;
+    font-size:12px;
+    cursor:pointer;
+    border-radius: 50%;
+    color:white;
+    background-color: red;
+    top:-5px;
+    right:-5px;
+    display: flex;
+    justify-content: center;
+}
+.NavbarImg{
+    height:35px;
+    width:35px;
+    border:none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left:10px;
+}
+
+
+.NotificationImg{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    border-radius:50%;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left: 5px;
+  }
+  .NotifiactionText{
+    font-weight:400;
+    font-size:12px;
+    margin:0px;
+    
+    color:#8E8E93;
+  }
+  .NotifiactionUserText{
+    font-size:15px;
+  
+    color:#000000;
+  }
+  .NotifiactionTextWrap{
+    width:180px;
+    display: flex;
+    justify-content:space-between;
+  }
+  .NotificationWrapper{
+    display:flex;
+    background: rgba(255, 255, 255, 0.88);
+   backdrop-filter: blur(10px);
+    align-items: center;
+    width:240px;
+   
+  }
+  .NotificationItem1{
+    margin-right:4px;
+    width:40px;
+  }
+  .NotificationItem{
+    display:flex;
+    flex-direction:column;
+    margin-left:8px;
+    color:#7F8487;
+
+  }
+  .list{
+    overflow-y: scroll;
+    height:200px;
+    width:245px;
+  }

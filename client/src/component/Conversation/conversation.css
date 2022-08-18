@@ -1,0 +1,23 @@
+.convoImg{
+    object-fit: cover;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+
+}
+.conversation{
+    display:flex;
+    margin-top:9px;
+    align-items: center;
+    padding:8px;
+    cursor: pointer;
+}
+.conversation:hover{
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+}
+.convoName{
+    font-size:20px;
+    font-weight:400;   
+    margin-left:19px; 
+}
